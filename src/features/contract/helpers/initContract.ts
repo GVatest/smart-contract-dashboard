@@ -17,7 +17,7 @@ export function initContract() {
   const contract = useAppSelector(selectContract);
 
   useEffect(() => {
-    if (provider) {
+    if (provider && wallet) {
       dispatch(getContract(provider));
     }
   }, [wallet, provider, CONTRACT_ADDRESS, CHAIN_ID]);
