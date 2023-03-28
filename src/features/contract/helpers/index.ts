@@ -1,0 +1,1 @@
+export { initContract } from './initContract';
