@@ -3,6 +3,8 @@
 > Dashboard for interacting with a smart contract
 
 ## Screenshots
+<img width="1440" alt="Screenshot 2023-03-28 at 17 27 03" src="https://user-images.githubusercontent.com/66703210/228270172-f46459dc-efdb-45c0-a34f-a71458a02f59.png">
+<img width="1440" alt="Screenshot 2023-03-28 at 17 28 32" src="https://user-images.githubusercontent.com/66703210/228270189-07583655-7096-4e26-a486-7eeee0126e49.png">
 
 ## Start
 
