@@ -1,12 +1,12 @@
-import { TextFieldProps } from '@mui/material';
-import InputAdornment from '@mui/material/InputAdornment';
-import React, { Dispatch, SetStateAction } from 'react';
-import { StyledTextField } from './styles';
+import { TextFieldProps } from "@mui/material";
+import InputAdornment from "@mui/material/InputAdornment";
+import React, { Dispatch, SetStateAction } from "react";
+import { StyledTextField } from "./styles";
 
 type StyledInputProps = {
   value: string;
   setValue?: Dispatch<SetStateAction<string>>;
-  type?: 'number' | 'text';
+  type?: "number" | "text";
   disabled?: boolean;
   label?: string;
   adortment?: string;
@@ -19,7 +19,7 @@ function StyledInput({
   label,
   adortment,
   disabled = false,
-  type = 'text',
+  type = "text",
   max,
   ...props
 }: StyledInputProps & TextFieldProps) {
@@ -30,8 +30,8 @@ function StyledInput({
     setState: Dispatch<SetStateAction<string>>
   ) {
     const valueToSet = e.target.value;
-    if (type === 'number') {
-      if (valueToSet === '' || numRegex.test(valueToSet)) {
+    if (type === "number") {
+      if (valueToSet === "" || numRegex.test(valueToSet)) {
         if (max) {
           if (+valueToSet <= max) setState(valueToSet);
         } else {
@@ -49,6 +49,7 @@ function StyledInput({
       id='filled-start-adornment'
       variant='outlined'
       size='medium'
+      inputMode={type === "number" ? "decimal" : "none"}
       disabled={disabled}
       onChange={setValue ? (e) => handleChange(e, setValue) : undefined}
       value={value}
