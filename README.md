@@ -3,17 +3,24 @@
 > Dashboard for interacting with a smart contract
 
 ## Screenshots
+
 <img width="1440" alt="Screenshot 2023-03-28 at 17 48 57" src="https://user-images.githubusercontent.com/66703210/228276471-08aa9a21-7022-423a-85d7-abc3cf413d4e.png">
 <img width="1440" alt="Screenshot 2023-03-28 at 17 28 32" src="https://user-images.githubusercontent.com/66703210/228270189-07583655-7096-4e26-a486-7eeee0126e49.png">
+
+## Demo
+
+https://smart-contract-dashboard.netlify.app/
 
 ## Start
 
 _Clone_
+
 ```bash
 git clone https://github.com/GVatest/bsc-smart-contract-dashboard
 ```
 
 _Install_
+
 ```bash
 npm install
 # or
@@ -21,6 +28,7 @@ yarn install
 ```
 
 _Start_
+
 ```bash
 npm run dev
 # or
@@ -30,22 +38,25 @@ yarn dev
 ## Custom Setup
 
 _To interact with a network other than BSC set the environment variable_
+
 ```js
 VITE_CHAIN_ID = your network ID
 ```
+
 _Set your dapp name to allow users connect their wallets from mobile version of metamask_
+
 ```js
-VITE_DAPP_NAME = "bnb-king.finance"
+VITE_DAPP_NAME = "bnb-king.finance";
 ```
 
 _Set your custom contract address and url_
+
 ```js
-VITE_CONTRACT_ADDRESS = ""
-VITE_CONTRACT_URL = ""
+VITE_CONTRACT_ADDRESS = "";
+VITE_CONTRACT_URL = "";
 ```
 
 _Replace existing contract intreface located at `src/features/contract/contract.ts` with your own_
-
 
 ## Stack: (with links)
 
