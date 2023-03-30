@@ -58,7 +58,7 @@ VITE_CONTRACT_URL = "";
 
 _Replace existing contract intreface located at `src/features/contract/contract.ts` with your own_
 
-## Stack: (with links)
+## Stack
 
 <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"></img></a>
 <a href="https://reactjs.org/)"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></img></a>
