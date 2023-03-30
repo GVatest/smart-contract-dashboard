@@ -79,7 +79,7 @@ While developing this application, I followed the feature-sliced design methodol
 
 ## _Additional_
 
-This application was developed by me alone within two weeks based on the design provided by the client. I was not involved in the project's further development.
+This application was developed independently within two weeks based on the design provided by the client. I was not involved in the project's further development.
 
 ## Credits
 
